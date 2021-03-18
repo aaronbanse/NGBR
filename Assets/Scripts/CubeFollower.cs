@@ -6,17 +6,18 @@ public class CubeFollower : MonoBehaviour
 {
 
     public GameObject player;
-    private Vector3 offset = new Vector3(-5, 3);
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform.GetChild(0).rotation = player.transform.rotation * Quaternion.Euler(15, 90, 0);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = player.transform.position + offset;
+        transform.position = player.transform.position;
+        transform.rotation = player.transform.rotation; // * Quaternion.Euler(15, 90, 0)
     }
 }

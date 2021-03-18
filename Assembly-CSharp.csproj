@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CubeController.cs" />
     <Compile Include="Assets\Scripts\CubeFollower.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Program Files/Unity Installs/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
