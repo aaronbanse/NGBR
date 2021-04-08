@@ -66,6 +66,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CubeController.cs" />
     <Compile Include="Assets\Scripts\CubeFollower.cs" />
+    <Compile Include="Assets\Scripts\mouseLook.cs" />
+    <Compile Include="Assets\Scripts\playerMovement.cs" />
+    <Compile Include="Assets\Scripts\projectileController.cs" />
+    <Compile Include="Assets\Scripts\projectileMover.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Program Files/Unity Installs/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
